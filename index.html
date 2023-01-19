@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="./img/logo.png" alt="Logo da Alura">
+    </header>
+
+    <section>
+        <form>
+            <!-- <label for="description"></label> -->
+            <textarea name="description" class="description" cols="30" rows="10" placeholder="Digite seu texto" required></textarea>
+        </form>
+
+        <img src="./img/pontuacao.png" alt="Informação">
+        <p>Apenas letras minúsculas e sem acento.</p>
+
+        <form class="bottom-criptografar">
+            <button type="submit">Criptografar</button>
+        </form>
+
+        <form class="bottom-descriptografar">
+            <button type="submit">Descriptografar</button>
+        </form>
+
+    </section>
+
+    <section>
+        <textarea name="decrypt" id="decrypt" cols="30" rows="10" placeholder="Nenhuma mensagem encontrada Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+    </section>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
